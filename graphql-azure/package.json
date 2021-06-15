@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "",
+  "dependencies": {
+    "apollo-server-azure-functions": "^2.25.1",
+    "graphql": "^15.5.0"
+  }
+}
