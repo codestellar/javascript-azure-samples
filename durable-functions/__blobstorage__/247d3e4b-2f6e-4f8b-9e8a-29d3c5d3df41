@@ -1,0 +1,43 @@
+{
+  "masterKey": {
+    "name": "master",
+    "value": "JyFb7LqMTkt0Bh1wVSvgR7ETzzUWWZaNax7kfR7y/mepHNu667gT9A==",
+    "encrypted": false
+  },
+  "functionKeys": [
+    {
+      "name": "default",
+      "value": "Qa3Izfsk5PUUaIodKRVuVx7adhuRghcYCeXDJCYUI1aMvqAAvJ7GOw==",
+      "encrypted": false
+    }
+  ],
+  "systemKeys": [],
+  "hostName": "localhost:7071",
+  "instanceId": "000000000000000000000000000B3393",
+  "source": "runtime",
+  "decryptionKeyId": ""
+}{
+  "masterKey": {
+    "name": "master",
+    "value": "JyFb7LqMTkt0Bh1wVSvgR7ETzzUWWZaNax7kfR7y/mepHNu667gT9A==",
+    "encrypted": false
+  },
+  "functionKeys": [
+    {
+      "name": "default",
+      "value": "Qa3Izfsk5PUUaIodKRVuVx7adhuRghcYCeXDJCYUI1aMvqAAvJ7GOw==",
+      "encrypted": false
+    }
+  ],
+  "systemKeys": [
+    {
+      "name": "durabletask_extension",
+      "value": "RQcYG2B6pGS0SKGR6z54w/q6sSxC506TmyaZ4mGsnbwNLen/GI9fwQ==",
+      "encrypted": false
+    }
+  ],
+  "hostName": "localhost:7071",
+  "instanceId": "000000000000000000000000000B3393",
+  "source": "runtime",
+  "decryptionKeyId": ""
+}{}{"TaskHubName":"TestHubName","CreatedAt":"2021-11-18T13:25:31.360703Z","PartitionCount":4}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":0}{"OwnerId":"d98c1dd4-008f-04b2-e980-0998ecf8427e","DesiredSwapId":null}{"PartitionId":"testhubname-control-00","Owner":"192","Token":"487ab745-a6ef-4cce-b74d-06a996cf21cf","Epoch":1}{"PartitionId":"testhubname-control-01","Owner":"192","Token":"23127f8a-5efd-44c5-915c-bef00cb77b90","Epoch":1}{"PartitionId":"testhubname-control-02","Owner":"192","Token":"8f008956-f52b-48e5-a595-c488d9bbcfe7","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":"192","Token":"17960e41-6878-46f4-8f63-89bee5fc8bdd","Epoch":1}{"PartitionId":"testhubname-control-00","Owner":"192","Token":"ff77c95c-406b-43d2-b296-aea57965cb72","Epoch":1}{"PartitionId":"testhubname-control-01","Owner":"192","Token":"fdbddf5e-2b4e-40ab-af14-9f5bdaf84fcd","Epoch":1}{"PartitionId":"testhubname-control-02","Owner":"192","Token":"6a2941e0-54b1-4804-bf07-c7ea9c7a46b0","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":"192","Token":"570fcd1f-ca6b-416d-b9cc-3e4826b78f46","Epoch":1}{"PartitionId":"testhubname-control-03","Owner":null,"Token":null,"Epoch":1}{"PartitionId":"testhubname-control-01","Owner":null,"Token":null,"Epoch":1}
