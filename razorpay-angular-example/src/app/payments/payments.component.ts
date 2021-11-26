@@ -20,7 +20,10 @@ export class PaymentsComponent implements OnInit {
     'order_id': '',
     "image": "https://mis.karismadiet.com/assets/frontend/css/img/logo.png",
     'handler': (res: any) => {
+        console.log('Transaction Success');
         console.log(res);
+
+        // Report to Server API
     },
     "prefill": {
       // Get Name from Token
@@ -50,7 +53,15 @@ export class PaymentsComponent implements OnInit {
 
   payNow(){
     let rzp = new Razorpay(this.razorPayOptions);
+    rzp.on('payment.failed', this.callTransactionFailedApi())
     rzp.open();
   }
+
+  callTransactionFailedApi(){
+    console.log('Transaction Failed');
+
+    // Report to Server API
+  }
+
 
 }
