@@ -23,7 +23,7 @@ export class PaymentsComponent implements OnInit {
         console.log('Transaction Success');
         console.log(res);
 
-        // Report to Server API
+        // Call Payment Success API in your OWN Application
     },
     "prefill": {
       // Get Name from Token
@@ -52,6 +52,9 @@ export class PaymentsComponent implements OnInit {
   }
 
   payNow(){
+    // Call Make Payment API here.
+
+    // On Success of Order Creation
     let rzp = new Razorpay(this.razorPayOptions);
     rzp.on('payment.failed', this.callTransactionFailedApi())
     rzp.open();
@@ -60,7 +63,7 @@ export class PaymentsComponent implements OnInit {
   callTransactionFailedApi(){
     console.log('Transaction Failed');
 
-    // Report to Server API
+    // Call Payment Failed API in your OWN Application
   }
 
 
